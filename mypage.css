@@ -1,0 +1,53 @@
+header {
+	background: #33ffc7;
+	text-align: center;
+	font-family: monospace;
+	padding: 10px;
+	
+}
+
+nav {
+	font-family: serif;
+	font-variant: small-caps;
+}
+
+h2 {
+	background: #33ffc7;
+}
+
+body {
+	font-family: monospace;
+	margin: 4%;
+}
+
+img {
+
+	/*visibility: hidden;*/
+	width: 100px;
+}
+
+section {
+	width: 30%;
+	display: inline-block;
+	float: left;
+	margin-right: 2%;
+}
+
+footer {
+	clear: both;
+}
+
+a {
+	display: inline-block;
+	width: 20%;
+	margin: 0 auto;
+	background: #33b4ff;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+}
+
+a:hover{
+	background: #65ff33;
+	color: #3343ff;
+}
