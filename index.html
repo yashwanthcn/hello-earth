@@ -4,15 +4,18 @@
 	<meta charset="utf-8">
 	<title>My First Page</title>
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="stylesheet" type="text/css" href="mypage.css">
 </head>
 <body>
 	<header>
-		<h1>Yashavantha C N</h1>
-		<a href="#">One</a>
-		<a href="#">Two</a>
-		<a href="#">Three</a>
+		<h1><span>Yashavantha C N</span></h1>
+		<nav>
+			<a href="#">Home</a>
+			<a href="#">About</a>
+			<a href="#">Contact</a>
+		</nav>
 	</header>
-	<nav>
+	<section>
 		<h2>Favorite Foods</h2>
 		<ul>
 			<li>Apples</li>
@@ -20,12 +23,12 @@
 			<li>Bananas</li>
 			<li>Pizza</li>
 		</ul>
-	</nav>
+	</section>
 	<section>
 		<h2>Achievements</h2>
-		<p>Progress in this course (100%) <meter min="1" max="100" value="100"></meter></p>
+		<p>Progress in this course (100%) <progress value="1"></progress></p>
 		<p>Progress in the specialization capstone (20%) <meter min="1" max="100" value="20"></meter></p>
-		<p>Progress in life goals (67%) <meter min="1" max="100" value="67"></meter></p>
+		<p>Progress in life goals (67%) <meter min="1" max="100" value="67" style="background-color:yellow;"></meter></p>
 	</section>
 
 	<section>
@@ -36,7 +39,7 @@
 		</details>
 	</section>
 	<footer>
-		<img src="download.png" alt="anonymous"><p>This page was created by Yashavantha C N. To learn more about me, follow me on <i class="fab fa-linkedin"></i> <i class="fab fa-facebook"></i> <i class="fab fa-twitter"></i> <i class="fab fa-instagram"></i></p>
+		<p><img src="download.png" alt="anonymous">This page was created by <span style="background-color:yellow;">Yashavantha C N</span>. To learn more about me, follow me on <i class="fab fa-linkedin"></i> <i class="fab fa-facebook"></i> <i class="fab fa-twitter"></i> <i class="fab fa-instagram"></i></p>
 	</footer>
 </body>
 </html>
