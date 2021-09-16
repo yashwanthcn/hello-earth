@@ -1,5 +1,7 @@
-header {
-	background: #33ffc7;
+
+
+header, footer {
+	background: linear-gradient(#33ffc7, #666666);
 	text-align: center;
 	font-family: monospace;
 	padding: 10px;
@@ -13,6 +15,7 @@ nav {
 
 h2 {
 	background: #33ffc7;
+
 }
 
 body {
@@ -26,18 +29,26 @@ img {
 	width: 100px;
 }
 
-section {
-	width: 30%;
+.half {
+	width: 40%;
 	display: inline-block;
 	float: left;
 	margin-right: 2%;
+}
+
+.whole {
+	clear: both;
+}
+
+li {
+	list-style-type: upper-roman;
 }
 
 footer {
 	clear: both;
 }
 
-a {
+nav a {
 	display: inline-block;
 	width: 20%;
 	margin: 0 auto;
@@ -50,4 +61,15 @@ a {
 a:hover{
 	background: #65ff33;
 	color: #3343ff;
+}
+
+@media only screen and (min-width: 600px) {
+.container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.item {
+	width: 20%;
+}
 }
